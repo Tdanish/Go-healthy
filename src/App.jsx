@@ -5,6 +5,8 @@ import Test from "./component/Test";
 import DarazMallCard from "./component/DarazMallCard";
 import { Card } from "./component/Card";
 import Header from "./component/Header";
+import Box from "./Box";
+import React from "react";
 function App() {
   const num = [1, 2, 4, 5];
   const MallData = [
@@ -100,6 +102,8 @@ function App() {
           <Card image={item.image} detail={item.detail} />
         ))}
       </div>
+
+      <Box />
     </div>
   );
 }

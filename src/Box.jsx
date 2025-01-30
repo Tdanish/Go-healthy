@@ -1,1 +1,7 @@
-<h1>this is the new box</h1>;
+import React from "react";
+
+const Box = () => {
+  return <div>Box</div>;
+};
+
+export default Box;
